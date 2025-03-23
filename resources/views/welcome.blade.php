@@ -24,7 +24,7 @@
     <div class="flex flex-col items-center justify-center p-6 mx-auto space-y-2 my-44 max-w-7xl lg:p-8">
         <x-application-logo class="w-10 h-10 text-indigo-600" />
         <a class="inline-flex items-center px-4 py-2 text-xs font-semibold tracking-widest text-white uppercase transition duration-150 ease-in-out bg-indigo-600 border border-transparent rounded-md hover:bg-indigo-700 focus:bg-indigo-700 active:bg-indigo-900 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
-            href="{{ route('register') }}">Getting Started</a>
+            href="{{ route('register') }}" wire:navigate>Getting Started</a>
     </div>
 </body>
 

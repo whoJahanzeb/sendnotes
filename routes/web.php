@@ -20,4 +20,8 @@ Route::view('notes/${id}', 'notes.show')
     ->middleware(['auth', 'verified'])
     ->name('notes.show');
 
+Route::view('notes/create', 'notes.create')
+    ->middleware(['auth', 'verified'])
+    ->name('notes.create');
+
 require __DIR__ . '/auth.php';
